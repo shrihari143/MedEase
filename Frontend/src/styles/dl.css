@@ -1,0 +1,43 @@
+.card-header:hover{
+    color:red;
+}
+.doctorlist{
+    color: rgb(19, 12, 12);
+    background-color: rgb(223, 223, 232);
+}
+.doctorlist:hover{
+    background-color: #2de42d;
+}
+.card {
+    background-color: rgb(105, 75, 144);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 2px gray;
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+  }
+  
+  .card-body {
+    font-size: 1rem;
+  }
+  .appointment{
+    background-color: aqua;
+  }
+  .ant-form-item-label label {
+  color: white !important;
+}
+.ant-input::placeholder {
+  color: black;
+}
+
+.white-tab {
+  color: white;
+}
+.white-tab:hover {
+  color: rgb(89, 211, 97);
+}
+
+  

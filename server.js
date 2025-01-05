@@ -22,11 +22,10 @@ app.use("/api/v1/user", require("./routes/userRoutes"));
 app.use("/api/v1/admin", require("./routes/adminRoutes"));
 app.use("/api/v1/doctor", require("./routes/doctorRoutes"));
 
-app.use(express.static(path.join(__dirname,'./client/build')));
-app.get("*",function(req,res){
-  res.sendFile(path.join(__dirname,"./client/build/index.html"));
+app.use(express.static(path.join(__dirname, './Frontend/client/build')));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, './Frontend/client/build/index.html'));
 });
-app
 //port
 const port = process.env.PORT || 8080;
 //listen port
